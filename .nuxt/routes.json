@@ -1,0 +1,114 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "D:\\\\Dessertation-code\\\\vue\\\\pages\\\\about.vue",
+    "chunkName": "pages/about",
+    "_name": "_777783a8"
+  },
+  {
+    "name": "blog",
+    "path": "/blog",
+    "component": "D:\\\\Dessertation-code\\\\vue\\\\pages\\\\blog\\\\index.vue",
+    "chunkName": "pages/blog/index",
+    "_name": "_19b30bcb"
+  },
+  {
+    "name": "cart",
+    "path": "/cart",
+    "component": "D:\\\\Dessertation-code\\\\vue\\\\pages\\\\cart.vue",
+    "chunkName": "pages/cart",
+    "_name": "_1f875555"
+  },
+  {
+    "name": "checkout",
+    "path": "/checkout",
+    "component": "D:\\\\Dessertation-code\\\\vue\\\\pages\\\\checkout.vue",
+    "chunkName": "pages/checkout",
+    "_name": "_5078e40a"
+  },
+  {
+    "name": "contact",
+    "path": "/contact",
+    "component": "D:\\\\Dessertation-code\\\\vue\\\\pages\\\\contact.vue",
+    "chunkName": "pages/contact",
+    "_name": "_7a220dfb"
+  },
+  {
+    "name": "login-register",
+    "path": "/login-register",
+    "component": "D:\\\\Dessertation-code\\\\vue\\\\pages\\\\login-register.vue",
+    "chunkName": "pages/login-register",
+    "_name": "_dace9208"
+  },
+  {
+    "name": "my-account",
+    "path": "/my-account",
+    "component": "D:\\\\Dessertation-code\\\\vue\\\\pages\\\\my-account.vue",
+    "chunkName": "pages/my-account",
+    "_name": "_62e82981"
+  },
+  {
+    "name": "privacy-policy",
+    "path": "/privacy-policy",
+    "component": "D:\\\\Dessertation-code\\\\vue\\\\pages\\\\privacy-policy.vue",
+    "chunkName": "pages/privacy-policy",
+    "_name": "_5576498c"
+  },
+  {
+    "name": "shop",
+    "path": "/shop",
+    "component": "D:\\\\Dessertation-code\\\\vue\\\\pages\\\\shop.vue",
+    "chunkName": "pages/shop",
+    "_name": "_0a8eda2b"
+  },
+  {
+    "name": "success",
+    "path": "/success",
+    "component": "D:\\\\Dessertation-code\\\\vue\\\\pages\\\\success.vue",
+    "chunkName": "pages/success",
+    "_name": "_2c19805e"
+  },
+  {
+    "name": "terms-conditions",
+    "path": "/terms-conditions",
+    "component": "D:\\\\Dessertation-code\\\\vue\\\\pages\\\\terms-conditions.vue",
+    "chunkName": "pages/terms-conditions",
+    "_name": "_3453731a"
+  },
+  {
+    "name": "wishlist",
+    "path": "/wishlist",
+    "component": "D:\\\\Dessertation-code\\\\vue\\\\pages\\\\wishlist.vue",
+    "chunkName": "pages/wishlist",
+    "_name": "_6ef59efa"
+  },
+  {
+    "name": "product-product-affiliate",
+    "path": "/product/product-affiliate",
+    "component": "D:\\\\Dessertation-code\\\\vue\\\\pages\\\\product\\\\product-affiliate.vue",
+    "chunkName": "pages/product/product-affiliate",
+    "_name": "_939030d6"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "D:\\\\Dessertation-code\\\\vue\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_d1a14326"
+  },
+  {
+    "name": "blog-slug",
+    "path": "/blog/:slug",
+    "component": "D:\\\\Dessertation-code\\\\vue\\\\pages\\\\blog\\\\_slug.vue",
+    "chunkName": "pages/blog/_slug",
+    "_name": "_17fc6a83"
+  },
+  {
+    "name": "product-slug",
+    "path": "/product/:slug?",
+    "component": "D:\\\\Dessertation-code\\\\vue\\\\pages\\\\product\\\\_slug.vue",
+    "chunkName": "pages/product/_slug",
+    "_name": "_5bdd14b0"
+  }
+]

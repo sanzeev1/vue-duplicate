@@ -2,8 +2,8 @@
   <div>
     <div class="product-area pb-90">
       <div class="container" >
-        <div v-if="$store.state.categories[0] != null">
-
+        <div >
+<!-- v-if="$store.state.categories[0] != null" -->
           <SectionTitleWithSubTitle :title="`${$store.state.categories[0].category_name}'s Latest Products`"
             classes="section-title" />
         </div>

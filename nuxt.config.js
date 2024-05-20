@@ -74,14 +74,4 @@ export default {
             compact: true,
         },
     },
-      // Define catch-all route
-      router: {
-        extendRoutes(routes, resolve) {
-            routes.push({
-                name: 'catchall',
-                path: '*',
-                component: resolve(__dirname, 'pages/index.vue') // Adjust the path if necessary
-            })
-        }
-    }
 }

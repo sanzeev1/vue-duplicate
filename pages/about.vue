@@ -3,7 +3,7 @@
         <HeaderWithTopbar containerClass="container" />
         <Breadcrumb pageTitle="about us" />
         <WelcomeMessage class="pt-100 pb-95" />
-        <BannerStyleOne class="pb-70" />
+        <!-- <BannerStyleOne class="pb-70" /> -->
         <AboutMission />
         <FunFact />
         <TeamMembers />

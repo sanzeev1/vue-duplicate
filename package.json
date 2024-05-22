@@ -1,7 +1,7 @@
 {
     "name": "fancy",
     "version": "1.0.0",
-    "author": "sanjeev",
+    "author": "Uzzal",
     "private": true,
     "scripts": {
         "dev": "nuxt",

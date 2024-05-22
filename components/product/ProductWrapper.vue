@@ -1,7 +1,8 @@
 <template>
   <div>
     <div class="product-area pb-90">
-      <div class="container" v-if="$store.state.categories.length > 0 && $store.state.categories[0] != null">
+      <div class="container" >
+      <!-- v-if="$store.state.categories.length > 0 && $store.state.categories[0] != null" -->
         <div>
           <SectionTitleWithSubTitle :title="`${$store.state.categories[0]?.category_name ?? 'Men'}s Latest Products`"
             classes="section-title" />

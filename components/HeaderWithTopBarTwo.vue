@@ -28,7 +28,7 @@
                         <div class="col-lg-2 col-4">
                             <div class="logo-hm9">
                                 <n-link to="/">
-                                    <img src="/img/logo/logo.png" alt="fancy logo">
+                                    <img src="/img/logo/logo.png" alt="Fancy logo">
                                 </n-link>
                             </div>
                         </div>

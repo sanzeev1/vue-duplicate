@@ -3,18 +3,14 @@
     <div class="product-img">
       <n-link :to="`/product/${product.id}`">
         <img class="default-img" :src="`https://api.cheparo.com/${product.image}`" :alt="product.product_name" />
-        <img class="hover-img" :src="`https://api.cheparo.com/${product.image}`" :alt="product.product_name" />
+        <img class="hover-img" :src="`https://api.cheparo.com/${product.image1}`" :alt="product.product_name" />
       </n-link>
-      <!-- <div class="product-badges">
-        <span class="product-label pink" v-if="product.new">New</span>
-        <span class="product-label purple" v-if="product.discount"
-          >-{{ product.discount }}%</span
-        >
-      </div> -->
+      <div class="product-badges">
+        <span class="product-label pink">New</span>
+    
+        
+      </div>
       <div class="product-action-2">
-        <!-- <button class="btn" title="Compare" @click="addToCompare(product)">
-          <i class="pe-7s-shuffle"></i>
-        </button> -->
         <button class="btn" title="Add To Cart" @click="addToCart(product)">
           <i class="pe-7s-cart"></i>
         </button>

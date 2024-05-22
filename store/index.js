@@ -206,10 +206,9 @@ export const actions = {
   async getCategoriesWithSubCategories({ commit }) {
     const categs = await fetchCategoriesWithSubcategories();
     commit("GET_CATEGORIES_WITH_SUBCATEGORIES", categs);
-    if (!categs[0]) return;
-    if (!categs[1]) return;
-    const manTab = categs[0]?.sub_categories[0].id ?? 11;
-    const womanTab = categs[1]?.sub_categories[0].id ?? 15;
+
+    const manTab = categs[0].sub_categories[0].id ?? 11;
+    const womanTab = categs[1].sub_categories[0].id ?? 15;
     const { products: manproducts } = await fetchTabbedProducts(manTab);
     const { products: womanproducts } = await fetchTabbedProducts(womanTab);
     commit("SET_WOMEN_TAB", womanTab);
@@ -220,12 +219,10 @@ export const actions = {
   async getMenTabProducts({ commit }, sub_category_id) {
     const { products } = await fetchTabbedProducts(sub_category_id);
     commit("SET_MEN_TAB_PRODUCTS", products);
-    commit("SET_MEN_TAB", sub_category_id);
   },
   async getWomenTabProducts({ commit }, sub_category_id) {
     const { products } = await fetchTabbedProducts(sub_category_id);
     commit("SET_WOMEN_TAB_PRODUCTS", products);
-    commit("SET_WOMEN_TAB", sub_category_id);
   },
   async getSlidersAction({ commit }) {
     const sliders = await fetchSliders();

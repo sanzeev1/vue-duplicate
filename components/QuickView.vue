@@ -59,6 +59,16 @@
 
             <p>{{ product.short_description }}</p>
 
+            <div class="pro-details-size-color">
+              <div class="pro-details-color-wrap">
+                <h6 class="label">Color: <p>{{product.color}}</p></h6>
+                
+              </div>
+
+              <div class="pro-details-size-wrap">
+                <h6 class="label">Size: <p>{{product.size}}</p></h6>
+              </div>
+            </div>
 
 
             <div class="pro-details-quality">
@@ -94,7 +104,39 @@
                 </li>
               </ul>
             </div> -->
+    <div class="pro-details-social">
+              <ul>
+                <li>
+                  <a href="https://www.facebook.com/" target="_blank">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                </li>
 
+                <li>
+                  <a href="https://dribbble.com/" target="_blank">
+                    <i class="fa fa-dribbble"></i>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://www.pinterest.com/" target="_blank">
+                    <i class="fa fa-pinterest-p"></i>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://twitter.com/" target="_blank">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://www.linkedin.com/" target="_blank">
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
 
           </div>
         </div>

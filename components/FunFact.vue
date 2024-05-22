@@ -24,7 +24,7 @@
             return {
                 startVal: 1,
                 isVisible: false,
-                 funFacts: [
+                funFacts: [
                     {
                         id: 1,
                         endVal: 3600,

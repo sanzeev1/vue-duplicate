@@ -356,7 +356,7 @@
             "/img/product/cosmetics/5.jpg",
             "/img/product/cosmetics/6.jpg"
         ],
-        "title": "Fancy fairness cream one",
+        "title": "Flone fairness cream one",
         "price": 25.00,
         "quantity": 10,
         "new": true,
@@ -396,7 +396,7 @@
             "/img/product/cosmetics/2.jpg",
             "/img/product/cosmetics/5.jpg"
         ],
-        "title": "Fancy moisturizing lotion",
+        "title": "Flone moisturizing lotion",
         "price": 40.00,
         "quantity": 10,
         "new": true,
@@ -416,7 +416,7 @@
             "/img/product/cosmetics/6.jpg",
             "/img/product/cosmetics/5.jpg"
         ],
-        "title": "Fancy skin whitening cream",
+        "title": "Flone skin whitening cream",
         "price": 30.00,
         "quantity": 5,
         "new": true,
@@ -436,7 +436,7 @@
             "/img/product/cosmetics/7.jpg",
             "/img/product/cosmetics/5.jpg"
         ],
-        "title": "Fancy skin radiance",
+        "title": "Flone skin radiance",
         "price": 40.00,
         "quantity": 14,
         "new": true,
@@ -456,7 +456,7 @@
             "/img/product/cosmetics/7.jpg",
             "/img/product/cosmetics/1.jpg"
         ],
-        "title": "Fancy nourishing skin cream",
+        "title": "Flone nourishing skin cream",
         "price": 50.00,
         "quantity": 14,
         "new": true,
@@ -476,7 +476,7 @@
             "/img/product/cosmetics/7.jpg",
             "/img/product/cosmetics/3.jpg"
         ],
-        "title": "Fancy acne cream",
+        "title": "Flone acne cream",
         "price": 50.00,
         "quantity": 14,
         "new": true,
@@ -496,7 +496,7 @@
             "/img/product/furniture/4.jpg",
             "/img/product/furniture/5.jpg"
         ],
-        "title": "Fancy foam chair one",
+        "title": "Flone foam chair one",
         "price": 40.00,
         "quantity": 5,
         "new": false,
@@ -516,7 +516,7 @@
             "/img/product/furniture/5.jpg",
             "/img/product/furniture/6.jpg"
         ],
-        "title": "Fancy wooden table one",
+        "title": "Flone wooden table one",
         "price": 25.00,
         "quantity": 10,
         "new": true,
@@ -536,7 +536,7 @@
             "/img/product/furniture/2.jpg",
             "/img/product/furniture/7.jpg"
         ],
-        "title": "Fancy tea table one",
+        "title": "Flone tea table one",
         "price": 40.00,
         "quantity": 10,
         "new": true,
@@ -556,7 +556,7 @@
             "/img/product/furniture/2.jpg",
             "/img/product/furniture/5.jpg"
         ],
-        "title": "Fancy color table one",
+        "title": "Flone color table one",
         "price": 40.00,
         "quantity": 10,
         "new": true,
@@ -576,7 +576,7 @@
             "/img/product/furniture/6.jpg",
             "/img/product/furniture/5.jpg"
         ],
-        "title": "Fancy wooden drawer one",
+        "title": "Flone wooden drawer one",
         "price": 30.00,
         "quantity": 5,
         "new": true,
@@ -596,7 +596,7 @@
             "/img/product/furniture/7.jpg",
             "/img/product/furniture/5.jpg"
         ],
-        "title": "Fancy sofa chair one",
+        "title": "Flone sofa chair one",
         "price": 40.00,
         "quantity": 14,
         "new": true,
@@ -616,7 +616,7 @@
             "/img/product/furniture/7.jpg",
             "/img/product/furniture/1.jpg"
         ],
-        "title": "Fancy office chair one",
+        "title": "Flone office chair one",
         "price": 50.00,
         "quantity": 14,
         "new": true,
@@ -636,7 +636,7 @@
             "/img/product/furniture/7.jpg",
             "/img/product/furniture/3.jpg"
         ],
-        "title": "Fancy office tea table",
+        "title": "Flone office tea table",
         "price": 50.00,
         "quantity": 14,
         "new": true,
@@ -656,7 +656,7 @@
             "/img/product/books/4.jpg",
             "/img/product/books/5.jpg"
         ],
-        "title": "Fancy Fly High",
+        "title": "Flone Fly High",
         "price": 40.00,
         "quantity": 5,
         "new": false,
@@ -676,7 +676,7 @@
             "/img/product/books/5.jpg",
             "/img/product/books/6.jpg"
         ],
-        "title": "Fancy Fallen Light",
+        "title": "Flone Fallen Light",
         "price": 25.00,
         "quantity": 10,
         "new": true,
@@ -716,7 +716,7 @@
             "/img/product/books/2.jpg",
             "/img/product/books/5.jpg"
         ],
-        "title": "Fancy Sky Fall",
+        "title": "Flone Sky Fall",
         "price": 40.00,
         "quantity": 10,
         "new": true,
@@ -756,7 +756,7 @@
             "/img/product/books/7.jpg",
             "/img/product/books/5.jpg"
         ],
-        "title": "Fancy Freelancing Guide",
+        "title": "Flone Freelancing Guide",
         "price": 40.00,
         "quantity": 14,
         "new": true,
@@ -776,7 +776,7 @@
             "/img/product/books/7.jpg",
             "/img/product/books/1.jpg"
         ],
-        "title": "Fancy History of Moon",
+        "title": "Flone History of Moon",
         "price": 50.00,
         "quantity": 14,
         "new": true,

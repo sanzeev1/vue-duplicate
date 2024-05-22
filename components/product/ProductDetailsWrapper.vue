@@ -68,17 +68,28 @@
                             <span>${{ product.price.toFixed(2) }}</span>
                         </div>
 
-                        <p>{{ product.short_description }}</p>
-                        <div class="pro-details-size-color" >
+                        <p>{{ product.short_discription }}</p>
+                        <!-- <div class="pro-details-size-color" v-if="product.variation">
                             <div class="pro-details-color-wrap">
-                                <h6 class="label">Color: <p>   {{product.color}}</p></h6>
-                                
+                                <h6 class="label">Color</h6>
+                                <div class="pro-details-color-content">
+                                    <label :class="item" class="radio" v-for="(item, index) in product.variation.color"
+                                        :key="index">
+                                        <input type="radio" name="colorGroup" />
+                                        <span class="check-mark"></span>
+                                    </label>
+                                </div>
                             </div>
                             <div class="pro-details-size-wrap">
-                                <h6 class="label">Size: <p> {{product.size}}</p></h6>
-                               
+                                <h6 class="label">Size</h6>
+                                <div class="pro-details-size-content">
+                                    <label class="radio" v-for="(item, index) in product.variation.sizes" :key="index">
+                                        <input type="radio" name="sizeGroup" />
+                                        <span class="check-mark">{{ item }}</span>
+                                    </label>
+                                </div>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="pro-details-quality">
                             <div class="cart-plus-minus">
                                 <button @click="decreaseQuantity()" class="dec qtybutton">-</button>
@@ -110,7 +121,7 @@
                                 </li>
                             </ul>
                         </div> -->
-                        <div class="pro-details-social">
+                        <!-- <div class="pro-details-social">
                             <ul>
                                 <li>
                                     <a href="https://www.facebook.com/" target="_blank">
@@ -138,7 +149,7 @@
                                     </a>
                                 </li>
                             </ul>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -182,17 +193,13 @@ export default {
     },
 
     mounted() {
-    this.$nextTick(() => {
-        const swiperTop = this.$refs.swiperTop;
-        const swiperThumbs = this.$refs.swiperThumbs;
-        
-        if (swiperTop && swiperTop.$swiper && swiperThumbs && swiperThumbs.$swiper) {
-            swiperTop.$swiper.controller.control = swiperThumbs.$swiper;
-            swiperThumbs.$swiper.controller.control = swiperTop.$swiper;
-        }
-    });
-},
-
+        this.$nextTick(() => {
+            // const swiperTop = this.$refs.swiperTop.$swiper
+            // const swiperThumbs = this.$refs.swiperThumbs.$swiper
+            // swiperTop.controller.control = swiperThumbs
+            // swiperThumbs.controller.control = swiperTop
+        })
+    },
 
     methods: {
         addToCart(product) {

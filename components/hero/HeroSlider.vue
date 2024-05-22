@@ -35,9 +35,8 @@
                 </div>
               </div>
             </div>
-             <div class="col-sm-6">
+            <div class="col-sm-6">
               <div class="slider-single-img slider-img-animation">
-                <img :src="`https://api.cheparo.com/${$store.state.sliders[1].image}`" alt="image">
               </div>
             </div>
           </div>

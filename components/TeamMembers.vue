@@ -92,7 +92,7 @@
                     {
                         imgSrc: "/img/team/team-4.jpg",
                         name: "Shan Williams",
-                        designation: "CEO",
+                        designation: "Engineer",
                         socialLink: [
                             {
                                 url: "https://www.facebook.com/",

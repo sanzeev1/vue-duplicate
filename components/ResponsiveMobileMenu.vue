@@ -45,7 +45,7 @@ export default {
               submenu: [
                 {
                   url: "/",
-                  title: "Fancy",
+                  title: "Home",
                 },
               ],
             },

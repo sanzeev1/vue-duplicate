@@ -45,7 +45,7 @@ export default {
               submenu: [
                 {
                   url: "/",
-                  title: "Home Fashion One",
+                  title: "Fancy",
                 },
               ],
             },

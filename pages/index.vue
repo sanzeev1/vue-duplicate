@@ -21,7 +21,7 @@ export default {
   },
   head() {
     return {
-      title: "Home Fashion One",
+      title: "Online Shopping",
     };
   },
 };

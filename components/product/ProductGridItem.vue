@@ -3,7 +3,7 @@
     <div class="product-img">
       <n-link :to="`/product/${product.id}`">
         <img class="default-img" :src="`https://api.cheparo.com/${product.image}`" :alt="product.product_name" />
-        <img class="hover-img" :src="`https://api.cheparo.com/${product.image}`" :alt="product.product_name" />
+        <img class="hover-img" :src="`https://api.cheparo.com/${product.image1}`" :alt="product.product_name" />
       </n-link>
 
       <div class="product-action" v-if="layout === 'twoColumn' || layout === 'threeColumn'">

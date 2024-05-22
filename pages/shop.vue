@@ -91,11 +91,22 @@
 
                         <!-- shop product -->
                         <div class="shop-bottom-area mt-35">
+                       
                             <div class="row product-layout"
                                 :class="{ 'list': layout === 'list', 'grid three-column': layout === 'threeColumn', 'grid two-column': layout === 'twoColumn' }">
-                                <div class="col-xl-4 col-sm-6" v-for="(product, index) in filterItems" :key="index">
-                                    <ProductGridItem :product="product" :layout="layout" />
-                                </div>
+                                <div class="row">
+        <template v-if="filterItems.length > 0">
+            <div class="col-xl-4 col-sm-6" v-for="(product, index) in filterItems" :key="index">
+            <ProductGridItem :product="product" :layout="layout" />
+            </div>
+        </template>
+        <template v-else>
+            <div class="col-12">
+            <p class="no-results-message">No results found</p>
+            </div>
+        </template>
+        </div>
+
                             </div>
                         </div>
                         <!-- end shop product -->
